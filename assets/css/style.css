@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ================== Root CSS Variables ================== */
+:root {
+  --brand: #b00000;
+  --brand-hover: #a80000;
+  --heading: #18191f;
+  --text: #808080;
+  --line: #dddddd;
+  --muted: #c4c4c4;
+
+  --bg-alt: #f7fafe;
+  --white: #ffffff;
+  --black: #000000;
+
+  --shadow-08: rgba(0, 0, 0, 0.08);
+  --brand-30: #b000004d;
+  --shadow-25: #00000040;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+header {
+  nav {
+    a:hover,
+    a:active,
+    a:visited {
+      border-bottom: 2px solid var(--brand);
+    }
+  }
+
+  .cta-hero:hover {
+    color: var(--brand-hover) !important;
+    background-color: var(--white) !important;
+  }
+
+  min-height: 100vh;
+
+  .logo {
+    width: 90px;
+  }
+
+  .nav-item {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .cta {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 64px;
+    max-width: 608px;
+  }
+
+  p {
+    max-width: 448px;
+    font-family: Inter;
+    color: var(--text);
+    line-height: 28px;
+    letter-spacing: 5%;
+  }
+
+  .btn-danger {
+    background: var(--brand) !important;
+    box-shadow: 0 0 64px 0 var(--brand-30);
+    border-radius: 8px;
+  }
+}
+
+#host {
+  img {
+    width: 140px;
+  }
+  h2 {
+    color: var(--heading);
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 48px;
+    max-width: 594px;
+  }
+}
+
+#slider {
+  .icon-bubble {
+    width: 96px;
+    height: 96px;
+  }
+  .features-prev,
+  .features-next {
+    z-index: 5;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--white);
+    box-shadow: 0 6px 16px var(--shadow-08);
+  }
+  .features-prev i,
+  .features-next i {
+    font-size: 22px;
+  }
+}
+
+#subs {
+  h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 50px;
+    max-width: 650px;
+  }
+  p {
+    font-family: Poppins;
+    font-size: 25px;
+    max-width: 464px;
+  }
+  .form-switch .form-check-input:checked {
+    background-color: var(--brand-hover);
+    border-color: var(--brand-hover);
+  }
+}
+
+#bundles {
+  .pricing-card {
+    border-radius: 20px;
+    border: 2px solid var(--black);
+    box-shadow: 0 0 4px 0 var(--shadow-25) inset;
+    border: 1.5px solid var(--muted);
+  }
+  .pricing-btn {
+    border-width: 2px;
+    border-radius: 999px;
+    padding: 12px 20px;
+  }
+  .check i {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+  h4 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  h4:hover {
+    border-bottom: 4px solid var(--brand);
+  }
+}
+
+@media (max-width: 576px) {
+  .cta {
+    font-size: 48px !important;
+  }
+  #subs {
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+}
+
+.t-card {
+  border: 0;
+  border-radius: 1rem;
+  background: var(--white);
+  box-shadow: 0 14px 34px var(--shadow-08);
+}
+
+.t-quote {
+  color: #20b2aa;
+  font-size: 28px;
+  line-height: 1;
+  margin-top: 4px;
+}
+
+@media (min-width: 992px) {
+  .card-left-top {
+    position: relative;
+    z-index: 2;
+  }
+  .card-left-bottom {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 36px;
+  }
+}
+
+#get-in-touch {
+  background-color: var(--bg-alt);
+  h2 {
+    color: #2e2e2e;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 64px;
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 974px) {
+  .position-sm-static {
+    position: static !important;
+    margin-top: 350px;
+  }
+}
+
+.swiper-pagination span {
+  top: 50px;
+  background-color: var(--black);
+}
+
+footer {
+  h6:hover,
+  li a:hover,
+  p:hover {
+    color: var(--black) !important;
+  }
+}
