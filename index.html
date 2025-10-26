@@ -27,7 +27,7 @@
     />
 
     <style></style>
-    <title>Document</title>
+    <title data-ar="مستند">Document</title>
   </head>
   <body>
     <header class="container">
@@ -50,35 +50,85 @@
           <div class="row navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item col-auto my-auto mx-auto">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  data-ar="خدماتنا"
                   >Our Services</a
                 >
               </li>
               <div class="col-auto my-auto mx-auto d-block d-md-flex">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                <li class="nav-item text-center">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    data-ar="حولنا"
                     >About
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active text-center"
+                    aria-current="page"
+                    href="#"
+                    data-ar="المدونة والأخبار"
                     >Blog&News</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active text-center"
+                    aria-current="page"
+                    href="#"
+                    data-ar="اتصل بنا"
                     >Contact
                   </a>
+                </li>
+                <li class="nav-item dropdown px-3 px-lg-0 text-center">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >EN</a
+                  >
+                  <ul
+                    class="dropdown-menu dropdown-menu-end border-0 shadow-lg"
+                  >
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        onclick="switchLanguage('en')"
+                        >EN</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        onclick="switchLanguage('ar')"
+                        >AR</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </div>
               <div
                 class="col-auto my-auto mx-auto d-block d-md-flex text-center"
               >
                 <li
-                  class="nav-item"
+                  class="nav-item text-center"
                   style="border-right: 1px solid #dad8d8; margin-right: 21px"
                 >
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    data-ar="الحساب"
                     >Account</a
                   >
                 </li>
@@ -97,20 +147,32 @@
           </div>
         </div>
       </nav>
-      <div class="container row hero align-items-center h-75">
+      <div dir="" class="container row hero align-items-center h-75">
         <div class="col-lg-6 col-sm-12">
           <div class="d-flex flex-column gap-5">
-            <h1 class="cta">Premium Web Hosting for Your Website</h1>
-            <p>
+            <h1 data-ar="استضافة ويب مميزة لموقعك الإلكتروني" class="cta">
+              Premium Web Hosting for Your Website
+            </h1>
+            <p
+              data-ar="استضافة ويب سريعة البرق للأفراد والشركات من جميع الأحجام مدعومة بدعم على مدار الساعة طوال أيام الأسبوع."
+            >
               Blazing fast web hosting for individuals and businesses of all
               sizes backed by 24x7x365 Support.
             </p>
             <div class="d-flex gap-3 align-items-stretch mb-4 mb-md-3">
-              <button type="button" class="btn btn-danger cta-hero">
+              <button
+                type="button"
+                class="btn btn-danger cta-hero"
+                data-ar="إنشاء حساب"
+              >
                 Create an Account
               </button>
 
-              <button type="button" class="btn btn-outline-dark">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-ar="اختر خطتك"
+              >
                 Choose your plan
               </button>
             </div>
@@ -119,19 +181,19 @@
         <div class="col-lg-6 col-sm-12 position-relative">
           <img src="./assets/imgs/header/Rectangle 22.png" alt="" />
           <img
-            style="width: 72px; bottom: 41px; right: -10px"
+            style="width: 34px; bottom: 41px; right: -10px"
             class="position-absolute"
             src="./assets/imgs/big.svg"
             alt=""
           />
           <img
-            style="width: 40px; bottom: 161px; left: -10px"
+            style="width: 40px; bottom: 161px; left: 0"
             class="position-absolute"
             src="./assets/imgs/left.svg"
             alt=""
           />
           <img
-            style="width: 40px; top: 63px; right: -10px"
+            style="width: 40px; top: 63px; right: 0"
             class="position-absolute"
             src="./assets/imgs/right.svg"
             alt=""
@@ -143,7 +205,9 @@
       <section class="container mb-5" id="host">
         <div class="row">
           <div class="col-lg-6 col-sm-12 mb-3 mb-md-0">
-            <h2>True Cloud Web Hosting</h2>
+            <h2 data-ar="استضافة الويب السحابية الحقيقية">
+              True Cloud Web Hosting
+            </h2>
             <p>
               True Cloud Web Hosting All of the hosting packages we offer are
               deployed instantly on our SSD powered cloud. We don’t use
@@ -291,11 +355,11 @@
       </section>
       <section class="container py-5" id="bundles">
         <div class="d-flex justify-content-evenly">
-          <h4 class="">Basic</h4>
-          <h4 class="">Premium</h4>
+          <h4 id="basic">Basic</h4>
+          <h4 id="premium">Premium</h4>
         </div>
 
-        <div class="row">
+        <div id="free" class="row">
           <div class="col-12 col-lg-4 mb-5">
             <div class="pricing-card p-4 p-md-5 bg-white">
               <h3 class="fw-bold mb-2">Starter</h3>
@@ -470,6 +534,181 @@
             </div>
           </div>
         </div>
+        <div id="paid" class="row">
+          <div class="col-12 col-lg-4 mb-5">
+            <div class="pricing-card p-4 p-md-5 bg-white">
+              <h3 class="fw-bold mb-2">Starter</h3>
+              <p class="text-muted mb-4">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </p>
+
+              <div class="d-flex align-items-end gap-2 mb-1">
+                <span class="display-4 fw-bold">$999</span>
+              </div>
+              <div class="text-muted mb-4">Per month</div>
+
+              <button class="btn btn-outline-dark pricing-btn w-100 mb-4">
+                Choose this Plan
+              </button>
+
+              <ul class="list-unstyled m-0">
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">2GB SSD</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">10GB Bandwidth</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">15 Email Accounts</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-bold">Unlimited Database</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">4 Subdomains</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">1 Parked Domain</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">2 Websites</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">Free SSL</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">Softaculous</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mb-5">
+            <div class="pricing-card p-4 p-md-5 bg-white">
+              <h3 class="fw-bold mb-2">Standard</h3>
+              <p class="text-muted mb-4">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </p>
+
+              <div class="d-flex align-items-end gap-2 mb-1">
+                <span class="display-4 fw-bold">$888</span>
+              </div>
+              <div class="text-muted mb-4">Per month</div>
+
+              <button class="btn btn-outline-dark pricing-btn w-100 mb-4">
+                Choose this Plan
+              </button>
+
+              <ul class="list-unstyled m-0">
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">2GB SSD</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">10GB Bandwidth</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">15 Email Accounts</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-bold">Unlimited Database</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">4 Subdomains</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">1 Parked Domain</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">2 Websites</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">Free SSL</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">Softaculous</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mb-5">
+            <div class="pricing-card p-4 p-md-5 bg-white">
+              <h3 class="fw-bold mb-2">Suprem</h3>
+              <p class="text-muted mb-4">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </p>
+
+              <div class="d-flex align-items-end gap-2 mb-1">
+                <span class="display-4 fw-bold">$666</span>
+              </div>
+              <div class="text-muted mb-4">Per month</div>
+
+              <button class="btn btn-outline-dark pricing-btn w-100 mb-4">
+                Choose this Plan
+              </button>
+
+              <ul class="list-unstyled m-0">
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">2GB SSD</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">10GB Bandwidth</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">15 Email Accounts</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-bold">Unlimited Database</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">4 Subdomains</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">1 Parked Domain</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">2 Websites</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 mb-3 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">Free SSL</span>
+                </li>
+                <li class="d-flex align-items-start gap-2 check">
+                  <i class="bi bi-check2"></i>
+                  <span class="fw-semibold">Softaculous</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="py-5">
         <div class="container">
@@ -479,7 +718,7 @@
                 <img
                   class="position-absolute"
                   src="./assets/imgs/real-customers/QuoteMark.svg"
-                  style="width: 140px; top: -50px; left: -50px"
+                  style="width: 140px; top: -50px; margin-inline-start: -50px"
                   alt=""
                 />
                 <h2 class="fw-bold display-5 mb-2">
@@ -603,13 +842,13 @@
             <span>Get in touch with us</span>
           </button>
           <img
-            style="width: 72px; bottom: 41px; right: -10px"
+            style="width: 34px; bottom: 41px; right: 0px"
             class="position-absolute"
             src="./assets/imgs/big.svg"
             alt=""
           />
           <img
-            style="width: 40px; bottom: 88px; left: -20px"
+            style="width: 40px; bottom: 88px; left: 0px"
             class="position-absolute"
             src="./assets/imgs/left.svg"
             alt=""
@@ -754,6 +993,7 @@
         </div>
       </div>
     </footer>
+    <script src="./index.js"></script>
     <!-- BOOTSTRAP SCRIPTS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

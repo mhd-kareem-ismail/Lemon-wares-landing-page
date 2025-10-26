@@ -182,7 +182,7 @@ header {
     position: relative;
     z-index: 1;
     margin-top: 20px;
-    margin-left: 36px;
+    margin-inline-start: 36px;
   }
 }
 
@@ -215,4 +215,11 @@ footer {
   p:hover {
     color: var(--black) !important;
   }
+}
+
+#free {
+  display: flex;
+}
+#paid {
+  display: none;
 }
